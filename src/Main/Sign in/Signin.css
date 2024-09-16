@@ -187,3 +187,84 @@ margin: 0 10px 0 15px;
 .text-sign-In .text {
     height: 150px;
 }
+@media (max-width: 1200px) {
+
+    .sign-in,
+    .sign-up {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right-side img,
+    .right-side-up img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .userN-passWord input,
+    .google-btn,
+    .facebook-btn,
+    .S-I,
+    .S-U {
+        width: 100%;
+    }
+
+    .left-side {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sign-in,
+    .sign-up {
+        padding: 20px;
+    }
+
+    .userN-passWord input,
+    .google-btn,
+    .facebook-btn {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .S-I,
+    .S-U {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .sign-in,
+    .sign-up {
+        padding: 10px;
+    }
+
+    .userN-passWord input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .terms {
+        flex-direction: column;
+    }
+
+    .right-side img,
+    .right-side-up img {
+        display: none;
+    }
+
+    .S-I,
+    .S-U {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .google-btn,
+    .facebook-btn {
+        width: 100%;
+        padding: 10px;
+    }
+}

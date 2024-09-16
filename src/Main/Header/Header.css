@@ -9,3 +9,73 @@ position: fixed;
 margin-bottom: 5000px;
 
 }
+@media (max-width: 768px) {
+  .Header {
+    height: auto;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .logo-img {
+    height: 30px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .links {
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .links ul {
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  .links ul li {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .Header {
+    padding: 5px;
+  }
+
+  .logo-img {
+    height: 25px;
+  }
+
+  .links ul {
+    padding: 0;
+  }
+
+  .one,
+  .two {
+    font-size: 10px;
+    width: 100%;
+  }
+}

@@ -12,3 +12,167 @@
   margin-bottom: 10px;
   margin-top: 200px;
 }
+
+@media (max-width: 1024px) {
+  .image-card img {
+    width: 200px;
+    height: 220px;
+  }
+
+  .username {
+    margin-top: 50px;
+  }
+
+  .s-icons img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .card-2 {
+    max-width: 350px;
+  }
+
+  .card-2-img img {
+    width: 320px;
+    height: 180px;
+  }
+
+  .h5-card-two,
+  .p-card-two {
+    margin: 0 30px;
+  }
+
+  .card {
+    width: 350px;
+    padding: 15px;
+  }
+
+  .card img {
+    max-width: 70px;
+  }
+
+  .full-name,
+  .email {
+    width: 200px;
+  }
+
+  .message {
+    width: 400px;
+  }
+
+  .send {
+    width: 400px;
+  }
+
+  .h1-text {
+    font-size: 35px;
+  }
+
+  .p-text {
+    font-size: 20px;
+  }
+
+  .title h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-card img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .username {
+    margin-top: 30px;
+  }
+
+  .card-2 {
+    max-width: 300px;
+  }
+
+  .card-2-img img {
+    width: 280px;
+    height: 160px;
+  }
+
+  .card {
+    width: 300px;
+    padding: 10px;
+  }
+
+  .full-name,
+  .email {
+    width: 180px;
+  }
+
+  .message {
+    width: 300px;
+  }
+
+  .send {
+    width: 300px;
+  }
+
+  .h1-text {
+    font-size: 30px;
+  }
+
+  .p-text {
+    font-size: 18px;
+  }
+
+  .title h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-card img {
+    width: 120px;
+    height: 150px;
+  }
+
+  .username {
+    margin-top: 20px;
+  }
+
+  .card-2 {
+    max-width: 260px;
+  }
+
+  .card-2-img img {
+    width: 240px;
+    height: 140px;
+  }
+
+  .card {
+    width: 260px;
+    padding: 8px;
+  }
+
+  .full-name,
+  .email {
+    width: 160px;
+  }
+
+  .message {
+    width: 260px;
+  }
+
+  .send {
+    width: 260px;
+  }
+
+  .h1-text {
+    font-size: 25px;
+  }
+
+  .p-text {
+    font-size: 16px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+}
