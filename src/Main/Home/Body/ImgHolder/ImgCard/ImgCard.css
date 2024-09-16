@@ -1,0 +1,43 @@
+.image-card img {
+    width: 250px;
+    height: 280px;
+    border-radius: 35px;
+}
+
+.username {
+    margin-top: 100px;
+}
+
+.s-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.s-icons img:hover {
+    transform: scale(1.1);
+
+}
+
+.s-icons img:active {
+    transform: scale(0.95);
+    opacity: 0.8;
+}
+
+.img-card-main .name {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.img-card-main .major {
+    color: rgb(96, 125, 139);
+    font-weight: 600;
+    margin-top: 5px;
+}

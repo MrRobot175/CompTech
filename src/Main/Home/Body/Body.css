@@ -1,0 +1,14 @@
+.body {
+  overflow-y: hidden;
+ 
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.our-team-text .text {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.contact-us-text .text {
+  margin-bottom: 10px;
+  margin-top: 200px;
+}

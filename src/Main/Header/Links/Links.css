@@ -1,0 +1,28 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  
+}
+.links ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+.links ul li {
+margin: 5px 15px ;
+font-weight: bold;
+
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links ul li  :hover {
+  color: #808080;
+
+}
+

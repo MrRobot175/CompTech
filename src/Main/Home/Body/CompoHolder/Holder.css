@@ -1,0 +1,10 @@
+.two-card-holder{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    
+}
