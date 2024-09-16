@@ -8,7 +8,7 @@ import Products from "./Products/Products";
 import About from "./About/About";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CompTech">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
