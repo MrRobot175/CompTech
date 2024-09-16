@@ -16,3 +16,52 @@
     justify-content: space-around;
     
 }
+@media (max-width: 1200px) {
+
+    .land-page {
+        background-size: cover;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cards-holder {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .land-page {
+        height: auto;
+        background-position: top;
+        padding: 10px;
+    }
+
+    .cards-holder {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .land-page {
+        height: auto;
+        background-size: cover;
+        background-position: top;
+        padding: 10px;
+    }
+
+    .cards-holder {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards-holder .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
